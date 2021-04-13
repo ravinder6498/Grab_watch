@@ -8,14 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var sliderCollectionView: UICollectionView!
-    @IBOutlet weak var pageView: UIPageControl!
+    
+    @IBOutlet weak var menSection: UIButton!
+    @IBOutlet weak var womenSection: UIButton!
+    @IBOutlet weak var kidsSection: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Grab Watch"
         // Do any additional setup after loading the view.
     }
-
-
+  
 }
-
